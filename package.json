@@ -1,7 +1,7 @@
 {
   "name": "tenzies",
   "version": "0.1.0",
-  "homepage": "https://AnupamAs0x1.github.io/Tenzies",
+  "homepage": "https://anupamas0x1.github.io/Tenzies/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -18,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
